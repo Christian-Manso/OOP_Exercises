@@ -116,6 +116,7 @@ public class BasePlusCommissionEmployee{
         System.out.println("Hired on: " + getEmpDateHired());
         System.out.println("Birthdate: " + getEmpBirthDate());
         System.out.println("Total sales: " + getTotalSales());
+        System.out.println("Base salary: " + getBaseSalary());
         System.out.println("Salary: " + computeSalary());
     }
     
@@ -127,6 +128,7 @@ public class BasePlusCommissionEmployee{
         s.append(String.format("Hired on: " + getEmpDateHired()));
         s.append(String.format("Birthdate: " + getEmpBirthDate()));
         s.append(String.format("Total sales: " + getTotalSales()));
+        s.append(String.format("Base salary: " + getBaseSalary()));
         s.append(String.format("Salary: " + computeSalary()));
         
         return s.toString();
